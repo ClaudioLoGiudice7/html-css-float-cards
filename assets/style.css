@@ -7,31 +7,82 @@
     font-family: 'Fredoka One', cursive;
 }
 
-h1,
-p {
+header{
+    color: #E53170;
+    margin-top: 30px;
+}
+
+p{
+    margin: 40px;
+}
+
+h1, p {
     text-align: center;
+}
+
+.paragraph{
+    width: 1200px;
+    margin: auto;
 }
 
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .container::after {
-    content: "";
     clear: both;
     display: table;
 }
 
 .blocks {
-    background-color: grey;
-    border: 1px solid black;
-    width: 100px;
+    background-color: #0F0E17;
+    width: 350px;
     height: 100px;
     margin: 0 auto;
     float: left;
+    margin: 25px;
 }
 
-/* img {
+.picture {
+        float: left;
+    background-color: red;
+    height: 80px;
+    width: 100px;
+}
+
+.text{
     float: left;
-} */
+    height: 100px;
+    width: calc(100% - 50%);
+    margin-left: 10px;
+}
+
+.photo{
+    height: 100px;
+    width: 100px;
+}
+
+.name .job .email{
+    text-align: center;
+}
+
+.name, .job{
+    color: #fff;
+}
+
+.name{
+    line-height: 50px;
+    font-size: 17px;
+}
+
+.job {
+    line-height: 5px;
+    font-size: 15px;
+}
+
+.email {
+    line-height: 50px;
+    color: #2BCFDD;
+    font-size: 15px;
+}
