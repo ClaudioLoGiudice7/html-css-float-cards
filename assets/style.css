@@ -86,3 +86,7 @@ h1, p {
     color: #2BCFDD;
     font-size: 15px;
 }
+
+a{
+    text-decoration: none;
+}
